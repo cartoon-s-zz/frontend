@@ -12,11 +12,11 @@ class Footer extends React.Component {
       //   </div>
 
       // </footer>
-      <footer class="page-footer font-small mdb-color pt-4 bg-light">
-        <div class="container text-center text-md-left">
-          <div class="row text-center text-md-left mt-3 pb-3">
-            <div class="col-md-12 col-lg-12 col-xl-12 mx-auto mt-12">
-              <h6 class="text-uppercase mb-4 font-weight-bold">SCG COMPANY</h6>
+      <footer className="page-footer font-small mdb-color pt-4 bg-light">
+        <div className="container text-center text-md-left">
+          <div className="row text-center text-md-left mt-3 pb-3">
+            <div className="col-md-12 col-lg-12 col-xl-12 mx-auto mt-12">
+              <h6 className="text-uppercase mb-4 font-weight-bold">SCG COMPANY</h6>
               <p>The Siam Cement Pcl. (Headquarter)
 1 Siam Cement Road, Bangsue, Bangkok 10800 Thailand
 Tel. 66 2586 4444</p>

@@ -51,25 +51,25 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <Link class="navbar-brand" to={'/'} onClick={this.setActiveHome.bind(this)}>SCG - COMPANY</Link>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link className="navbar-brand" to={'/'} onClick={this.setActiveHome.bind(this)}>SCG - COMPANY</Link>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class={this.state.home ? "nav-item active" : "nav-item"}>
-              <Link class="nav-link" to={'/'} onClick={this.setActiveHome.bind(this)}>Home</Link>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className={this.state.home ? "nav-item active" : "nav-item"}>
+              <Link className="nav-link" to={'/'} onClick={this.setActiveHome.bind(this)}>Home</Link>
             </li>
-            <li class={this.state.findXYZ ? "nav-item active" : "nav-item"}>
-              <Link to={'/findxyz'} class="nav-link" href="#" onClick={this.setActiveXYZ.bind(this)}>FindXYZ</Link>
+            <li className={this.state.findXYZ ? "nav-item active" : "nav-item"}>
+              <Link to={'/findxyz'} className="nav-link" href="#" onClick={this.setActiveXYZ.bind(this)}>FindXYZ</Link>
             </li>
-            <li class={this.state.findres ? "nav-item active" : "nav-item"}>
-              <Link class="nav-link" to={'/findres'} onClick={this.setActiveRes.bind(this)}>Find Restaurant</Link>
+            <li className={this.state.findres ? "nav-item active" : "nav-item"}>
+              <Link className="nav-link" to={'/findres'} onClick={this.setActiveRes.bind(this)}>Find Restaurant</Link>
             </li>
-            <li class={this.state.mycv ? "nav-item active" : "nav-item"}>
-              <Link class="nav-link" to={'/mycv'} onClick={this.setActiveCV.bind(this)}>My CV</Link>
+            <li className={this.state.mycv ? "nav-item active" : "nav-item"}>
+              <Link className="nav-link" to={'/mycv'} onClick={this.setActiveCV.bind(this)}>My CV</Link>
             </li>
             {/* <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
