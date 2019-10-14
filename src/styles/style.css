@@ -9,3 +9,48 @@
   height: auto;
   width: 100%;
 }
+
+.mycv {
+  background-color: #e4f0f6;;
+  height: 100vh ;
+  /* height: 100%; */
+  padding: 20px;
+}
+
+.myprofile {
+  background-color: aquamarine;
+  height: 350px;
+  width: 250px;
+  
+}
+
+.profilepic {
+  height: 350px;
+  width: 250px;
+  position: absolute;
+}
+
+.topCV {
+  height: 50%;
+  /* background-color: red; */
+}
+
+.buttomCV {
+  height: 50%;
+  background-color: green;
+}
+
+.info {
+  padding: 25px
+}
+
+.tagname {
+  background-color:rgba(153, 204, 255, 0.8);
+  position: relative;
+  width: 320px;
+  /* bottom: 0px; */
+  top: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: large;
+}
