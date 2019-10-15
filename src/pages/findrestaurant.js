@@ -12,14 +12,24 @@ class FindRestaurant extends React.Component {
     }
   }
 
-  async componentWillMount() {
-
+  async componentDidMount() {
+    let localData = JSON.parse(localStorage.getItem('list'));
+    // console.log('local1===>', JSON.parse(localData));
+    this.setState({
+      data: localData,
+    });
+    // console.log(this.state.data);
   }
 
   async searchRes() {
     const url = 'http://localhost:3001/api/scg/findingRestaurant';
     let response = await fetch(url);
     let dataRes = await response.json();
+    // console.log('datares', dataRes);
+    // this.setState({
+    //   data: dataRes,
+    // });
+    localStorage.setItem('list', JSON.stringify(dataRes))
     this.setState({
       data: dataRes,
     });
