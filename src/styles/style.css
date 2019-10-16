@@ -12,9 +12,10 @@
 
 .mycv {
   background-color: #e4f0f6;;
-  height: 100vh ;
+  /* height: 100vh ; */
   /* height: 100%; */
   padding: 20px;
+  min-height: 100vh;
 }
 
 .myprofile {
@@ -31,13 +32,13 @@
 }
 
 .topCV {
-  height: 50%;
+  height: 350px;
   /* background-color: red; */
 }
 
 .buttomCV {
   height: 50%;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .info {
@@ -53,4 +54,39 @@
   height: 50px;
   text-align: center;
   font-size: large;
+}
+
+.educated {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.home {
+  padding: 30px;
+  /* background-color: white; */
+}
+
+.sidehome {
+  padding: 30px;
+  /* background-color: white; */
+  color: gray;
+}
+
+.homepic {
+  /* height: 38.5vw */
+  height: auto;
+  width: 100%;
+}
+
+/* div {
+  font-family: "Times New Roman", Times, serif;
+} */
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.theme {
+  /* background-color: royalblue */
 }
