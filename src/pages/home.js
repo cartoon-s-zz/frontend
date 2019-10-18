@@ -22,7 +22,7 @@ class Home extends React.Component {
             <h3 >Hello Welcome to my page, I'm</h3>
             <span className="name">Phadtharaded Sawankachirdwilai</span>
             <br />
-            <div>Junior Web Application Developer </div>
+            <div>Junior Software Developer </div>
             <br />
             <div>Email: phadtharaded-sawan.toon@hotmail.com</div>
             <div>Tel: 087-865xxxx</div>
