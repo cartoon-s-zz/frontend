@@ -5,6 +5,13 @@
   padding: 20px;
 }
 
+.maincontrainercv {
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgba(153, 204, 255, 0.8);;
+  /* padding: 20px; */
+}
+
 .tableStyle {
   height: auto;
   width: 100%;
@@ -90,3 +97,7 @@
 .theme {
   /* background-color: royalblue */
 }
+
+/* .progress-bar {
+  width: 25%; 
+} */

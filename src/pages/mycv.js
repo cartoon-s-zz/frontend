@@ -11,7 +11,7 @@ class FindCV extends React.Component {
 
   render() {
     return (
-      <div className="maincontrainer">
+      <div className="maincontrainercv">
         <div className="mycv">
           <div className="topCV">
             <div className="row">
@@ -159,33 +159,118 @@ class FindCV extends React.Component {
               <div className="col-6">
                 <h3>Skills</h3>
                 <h4>Languages</h4>
-                <div>- English</div>
-                <div>- Thai</div>
-                <br />
-                <h4>Computer skills</h4>
-                <div>- NodeJS</div>
-                <div>- Express</div>
-                <div>- React</div>
-                <div>- SQL</div>
-                <div>- Swift</div>
-                <div>- Java</div>
-                <div>- C</div>
-                <div>- Adobe</div>
-                <div>- Office</div>
+                <div className="row">
+                  <div className="col-12">- English</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '75%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Thai</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '100%' }}></div>
+                    </div>
+                  </div>
 
+                </div>
+
+                <br />
+                <h3>Soft Skills</h3>
+                <div className="row">
+                  <div className="col-12">- Team work</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '100%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Creative</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '85%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Flexible</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '80%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Managment</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '90%' }}></div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="col-6">
-                <h3>Soft Skills</h3>
-                <div>- Team work</div>
-                <div>- Creative</div>
-                <div>- Flexible</div>
-                <div>- Managment</div>
+                <h4>Computer skills</h4>
+                <div className="row">
+                  <div className="col-12">- NodeJS</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '95%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Express</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '90%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- React</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '95%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- SQL</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '96%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Swift</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '70%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Java</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '70%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- C</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '65%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Adobe</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '60%' }}></div>
+                    </div>
+                  </div>
+                  <div className="col-12">- Office</div>
+                  <div className="col-6">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style={{ width: '60%' }}></div>
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
 
           </div>
-
+          <br />
         </div>
+
       </div >
     )
   }
