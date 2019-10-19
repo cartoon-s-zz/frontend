@@ -6,8 +6,8 @@ class FindRestaurant extends React.Component {
   constructor() {
     super();
     this.state = {
-      lat: 13.804983,
-      lng: 100.536200,
+      lat: 13.810577,
+      lng: 100.530278,
       data: []
     }
   }
